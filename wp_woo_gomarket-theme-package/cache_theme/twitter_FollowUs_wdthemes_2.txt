@@ -1,0 +1,19 @@
+								<div id="twitter-box" style="overflow: hidden;">
+																		<ul id="twitter-list">
+																				<li class="status-item first">
+											<span class="tweet-content">Wedding wordpress magazine theme @ <a href="http://t.co/4yycQnzI" >http://t.co/4yycQnzI</a></span>
+											<div class="name-time"></div>
+											<div class="date-time"><a href="http://twitter.com/WDThemes/statuses/2.5341480511591E+17">1 year ago</a></div>
+											<div class="avatar"><img src="http://pbs.twimg.com/profile_images/3441493961/93d9b598a0fac18cf6e9df537fa4c5df_normal.png" title="WDThemes" alt="WDThemes"></div>
+										</li>
+																				<li class="status-item last">
+											<span class="tweet-content">Wanna to show your portfolios?Let's see our special theme @ <a href="http://t.co/gMseK2dD" >http://t.co/gMseK2dD</a></span>
+											<div class="name-time"></div>
+											<div class="date-time"><a href="http://twitter.com/WDThemes/statuses/2.5341469747329E+17">1 year ago</a></div>
+											<div class="avatar"><img src="http://pbs.twimg.com/profile_images/3441493961/93d9b598a0fac18cf6e9df537fa4c5df_normal.png" title="WDThemes" alt="WDThemes"></div>
+										</li>
+																			</ul>
+								<a href="http://twitter.com/wdthemes"><span class="twitter-follow"></span></a>
+													
+								</div><!-- #ticker-wrapper -->
+					
