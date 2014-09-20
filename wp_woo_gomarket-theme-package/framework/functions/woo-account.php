@@ -38,7 +38,8 @@ if ( ! function_exists( 'wd_tini_account' ) ) {
 					
 					<div class="form_wrapper">				
 						<div class="form_wrapper_body">
-							<?php    
+							<?php 
+								/*   
 								$args = array(
 									//'redirect' => admin_url()
 									'redirect' => $myaccount_page_url
@@ -49,8 +50,18 @@ if ( ! function_exists( 'wd_tini_account' ) ) {
 									,'label_log_in' => __( 'Login','wpdance' )
 									,'remember' => false
 								);
-								wp_login_form( $args );
+								wp_login_form( $args );*/
 							?>
+							<form id="login" action="login" method="post">
+						        <p class="status"></p>
+						        <label for="username">Username</label>
+						        <input id="username" type="text" name="username">
+						        <label for="password">Password</label>
+						        <input id="password" type="password" name="password">
+						        <a class="lost" href="<?php echo wp_lostpassword_url(); ?>">Lost your password?</a>
+						        <input class="submit_button" type="submit" value="Login" name="submit">
+						        <?php wp_nonce_field( 'ajax-login-nonce', 'security' ); ?>
+						    </form>
 							<!--<a href="<?php //echo wp_lostpassword_url(); ?>" title="<?php //_e('Forgot Your Password?','wpdance');?>"><?php //_e('Forgot Your Password?','wpdance');?></a>-->
 						</div>
 						<div class="form_wrapper_footer">

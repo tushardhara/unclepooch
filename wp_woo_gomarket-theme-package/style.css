@@ -915,11 +915,11 @@ background-color: #022025;
 .first-footer-widget-area-2 {
 
 	padding-right:2px;
-         border: 2px solid white;
-         border-radius: 25px;
 	margin-bottom:0px;
 }
-
+.span16{
+	border: none !important;
+}
 .first-footer-widget-area-3 {
  	
 	/*padding: 3px;*/
